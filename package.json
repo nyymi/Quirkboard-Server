@@ -1,0 +1,30 @@
+{
+    "name": "quirkboard_server",
+    "version": "0.0.2",
+    "description": "Server for the quirkboard imageboard application.",
+    "main": "main.js",
+    "scripts": {
+        "test": "test"
+    },
+    "keywords": [
+        "quirkboard",
+        "server"
+    ],
+    "author": "nyymi",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "censored"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "connect-busboy": "0.0.2",
+        "cors": "^2.7.1",
+        "express": "^4.13.4",
+        "fs-extra": "^0.30.0",
+        "morgan": "^1.7.0",
+        "mysql": "^2.10.2",
+        "q": "^1.4.1"
+    },
+    "devDependencies": {}
+}
